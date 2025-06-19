@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "解决方案项", "解决�
 		global.json = global.json
 		LICENSE = LICENSE
 		NuGet.config = NuGet.config
+		.github\workflows\publish-beta.yml = .github\workflows\publish-beta.yml
+		.github\workflows\publish.yml = .github\workflows\publish.yml
 		Readme.MD = Readme.MD
 	EndProjectSection
 EndProject
