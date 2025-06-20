@@ -1,6 +1,10 @@
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 
 namespace ApiDocDemo.Controllers;
+
+/// <summary>
+/// 天气控制器
+/// </summary>
 [ApiController]
 [Route("[controller]")]
 public class WeatherForecastController : ControllerBase
