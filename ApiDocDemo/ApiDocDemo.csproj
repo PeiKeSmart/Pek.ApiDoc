@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
@@ -14,7 +14,7 @@
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.6" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.22.1-Preview.1" />
     <PackageReference Include="Pek.Common" Version="4.12.2025.617-beta0444" />
-    <PackageReference Include="Pek.WAF" Version="4.12.2025.620-beta0846" />
+    <PackageReference Include="Pek.WAF" Version="4.12.2025.620-beta0858" />
     <PackageReference Include="PekVue.FrameWrok" Version="4.12.2025.620-beta0803" />
   </ItemGroup>
 
