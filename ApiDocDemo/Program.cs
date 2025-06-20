@@ -14,6 +14,7 @@ using Pek.Configs;
 using Pek.Helpers;
 using Pek.Infrastructure;
 using Pek.NCube;
+using Pek.NCubeUI.Common;
 
 XTrace.UseConsole();
 
@@ -114,12 +115,16 @@ app.UseCube(builder.Environment);
 
 app.UseAuthentication();  // 认证中间件 用于Jwt检验
 
-app.UseRouting(); // 路由中间件
+//app.UseRouting(); // 路由中间件
+app.UsePekRouter(endpoints =>
+{
+    app.UsePekEndpoints(); // 注册 Pek 的路由端点
+});
 
 app.UseAuthorization();  // 授权中间件
 
-//app.MapControllers();
-app.UseCubeHome();
+app.MapControllers();
+//app.UseCubeHome();
 
 //app.RegisterService("DHDeploy.Agent", null, builder.Environment.EnvironmentName, "/pek/info");
 

@@ -2,6 +2,8 @@
 
 using Asp.Versioning;
 
+using NewLife.Log;
+
 using Pek.Infrastructure;
 using Pek.VirtualFileSystem;
 
